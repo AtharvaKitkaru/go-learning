@@ -14,9 +14,10 @@ func fetchData(wg *sync.WaitGroup,url string){
 
 func CallApis () (){
 	var apis []string
+	var wg sync.WaitGroup
  	apis = []string{"api1","api2","api3"}
 
-	var wg sync.WaitGroup
+	
 	
 	for i:=0; i < len(apis); i++{
 		wg.Add(1)
