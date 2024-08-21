@@ -4,11 +4,14 @@ import(
 	// "fmt"
 	// "go-practice/structs"
 	// "go-practice/go-routines"
-	"go-practice/locks"
+	// "go-practice/locks"
+	"go-practice/channels"
 )
 
 func main(){
 	// structs.PracticeStructs()
 	// goroutines.CallApis()
-	locks.SimulateCache()
+	// locks.SimulateCache()
+	channels.CallPC()
+
 }
